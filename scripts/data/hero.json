@@ -1,0 +1,37 @@
+{
+    "home": {
+        "title": "Driving the Future of\nEngineering Excellence",
+        "description": "At Red Bird Racing (EVRT), we empower aspiring engineers through hands-on experience in motorsport. Our mission is to cultivate innovation, teamwork, and technical skills essential for success in the engineering field.",
+        "button": {
+            "text": "Learn More",
+            "link": "/pages/about.html"
+        }
+    },
+    "about": {
+        "title": "About Us",
+        "description": "Red Bird Racing (EVRT) empowers aspiring engineers through competitive racing and hands-on learning experiences."
+    },
+    "team": {
+        "title": "Our Team",
+        "description": "Meet the passionate individuals behind Red Bird Racing's success.",
+        "hideButton": true
+    },
+    "news": {
+        "title": "Team Updates",
+        "description": "Stay informed about our racing journey and achievements.",
+        "hideButton": true
+    },
+    "sponsors": {
+        "title": "Partner With\nInnovation Leaders",
+        "description": "Join our growing network of sponsors who support the future of engineering. Your partnership helps us push boundaries and achieve new heights in Formula Student racing.",
+        "button": {
+            "text": "Become a Sponsor",
+            "link": "mailto:redbirdracinghkustevrt@gmail.com"
+        }
+    },
+    "gallery": {
+        "title": "Photo Gallery",
+        "description": "Experience our journey through captivating moments and milestones.",
+        "hideButton": true
+    }
+} 

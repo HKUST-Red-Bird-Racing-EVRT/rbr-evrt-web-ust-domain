@@ -1,0 +1,24 @@
+body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: var(--color-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-dark);
+}
+
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+
+p { margin-bottom: var(--spacing-md); }
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-base);
+} 
