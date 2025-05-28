@@ -10,13 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Initialize partners section
         const partnersSection = new PartnersSection('partners-section');
-        console.log('Partners section initialized');
         await partnersSection.init();
-        console.log('Partners data loaded:', partnersSection.data);
-
-        // Initialize footer
-        const footerSection = new FooterSection('footer-section');
-        footerSection.init();
     } catch (error) {
         console.error('Error initializing page:', error);
     }

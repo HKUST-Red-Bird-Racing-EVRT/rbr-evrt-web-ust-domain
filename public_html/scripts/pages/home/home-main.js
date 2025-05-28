@@ -12,9 +12,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const postsSection = new PostsSection('posts-section');
         await postsSection.init();
 
-        // Initialize footer
-        const footerSection = new FooterSection('footer-section');
-        footerSection.init();
+        // No need to initialise footer
     } catch (error) {
         console.error('Error initializing page:', error);
     }

@@ -4,8 +4,29 @@ class BlogDetailSection {
         this.post = null;
     }
 
-    init(postData) {
-        this.post = postData;
+    async init(postId, pageContext = 'news', options = {}) {
+        // Fetch blog posts data
+        const urlParams = new URLSearchParams({
+            page: 'blog-posts',
+            context: encodeURIComponent(pageContext)
+        });
+
+        data = null;
+
+        try {
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+
+            data = await response.json();
+        } catch (error) {
+            console.error('Error loading teams:', error);
+            data = null;
+        }
+        
+        // Find the matching post
+        const post = data.posts.find(p => 
+            p.title.replace(/\s+/g, '-').toLowerCase() === postId
+        );
+        this.post = post;
         this.render();
     }
 

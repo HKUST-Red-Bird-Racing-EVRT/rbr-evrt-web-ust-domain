@@ -72,7 +72,7 @@ class FooterSection {
 
                             <div class="footer__contact">
                                 <p>{$this->data['contact']['info']['label']}</p>
-                                <a href="{$this->data['contact']['info']['link']}"{$this->data['contact']['info']['email']}</a>
+                                <a href="{$this->data['contact']['info']['link']}">{$this->data['contact']['info']['email']}</a>
                             </div>
                         </div>
 

@@ -6,9 +6,15 @@ class GallerySection {
         this.currentImageIndex = 0;
     }
 
-    async init() {
+    async init(pageContext = 'gallery', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'gallery',
+            context: encodeURIComponent(pageContext)
+        });
+
         try {
-            const response = await fetch('/scripts/data/gallery.json');
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+
             this.data = await response.json();
             this.render();
             this.createModal();

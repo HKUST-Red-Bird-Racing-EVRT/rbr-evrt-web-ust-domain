@@ -4,9 +4,20 @@ class PostsSection {
         this.data = null;
     }
 
-    async init() {
+    async init(pageContext = 'home', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'posts',
+            context: encodeURIComponent(pageContext)
+        });
+        
         try {
-            const response = await fetch('/scripts/data/blog-posts.json');
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+            
+            if (!response.ok) {
+                const errorData = await response.json();
+                throw new Error(errorData?.error || `HTTP error! status: ${response.status}`);
+            }
+            
             this.data = await response.json();
             this.render();
         } catch (error) {

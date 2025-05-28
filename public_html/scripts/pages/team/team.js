@@ -4,9 +4,15 @@ class TeamSection {
         this.teams = [];
     }
 
-    async init() {
+    async init(pageContext = 'team', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'teams',
+            context: encodeURIComponent(pageContext)
+        });
+
         try {
-            const response = await fetch('/scripts/data/teams.json');
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+
             const data = await response.json();
             this.teams = data.teams;
             this.render();

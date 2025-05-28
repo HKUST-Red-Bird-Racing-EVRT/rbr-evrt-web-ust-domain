@@ -1,17 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
     // Initialize header
     const headerSection = new HeaderSection('header-section');
     headerSection.init();
 
     // Initialize hero
     const heroSection = new HeroSection('hero-section');
-    heroSection.init("news");
+    await heroSection.init("news");
 
     // Initialize news section
     const newsSection = new NewsSection('news-section');
-    newsSection.init();
-
-    // Initialize footer
-    const footerSection = new FooterSection('footer-section');
-    footerSection.init();
+    await newsSection.init();
 }); 

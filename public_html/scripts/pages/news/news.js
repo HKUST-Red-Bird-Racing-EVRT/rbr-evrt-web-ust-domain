@@ -12,19 +12,23 @@ class NewsSection {
         this.articles = [];
     }
 
-    init() {
-        // Fetch blog posts data
-        fetch('/scripts/data/blog-posts.json')
-            .then(response => response.json())
-            .then(data => {
-                this.articles = data.posts;
-                this.render();
-            })
-            .catch(error => {
-                console.error('Error loading blog posts:', error);
-                this.articles = [];
-                this.render();
-            });
+    async init(pageContext = 'news', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'news',
+            context: encodeURIComponent(pageContext)
+        });
+
+        try {
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+
+            const data = await response.json();
+            this.articles = data.posts;
+            this.render();
+        } catch (error) {
+            console.error('Error loading teams:', error);
+            this.articles = [];
+            this.render();
+        }
     }
 
     render() {

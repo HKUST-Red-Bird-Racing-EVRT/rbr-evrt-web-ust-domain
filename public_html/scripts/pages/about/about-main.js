@@ -16,8 +16,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const highlightsSection = new HighlightsSection('highlights-section');
     highlightsSection.init();
-
-    // Initialize footer
-    const footerSection = new FooterSection('footer-section');
-    footerSection.init();
 }); 

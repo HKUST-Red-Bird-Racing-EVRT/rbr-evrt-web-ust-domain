@@ -12,11 +12,11 @@ class HeaderSection {
             'link' => '/'
         ],
         'navigation' => [
-            ['text' => 'About Us', 'link' => '/pages/about.html'],
-            ['text' => 'Our Team', 'link' => '/pages/team.html'],
-            ['text' => 'News', 'link' => '/pages/news.html'],
-            ['text' => 'Our Partners', 'link' => '/pages/partners.html'],
-            ['text' => 'Photo Gallery', 'link' => '/pages/gallery.html']
+            ['text' => 'About Us', 'link' => '/pages/about.php'],
+            ['text' => 'Our Team', 'link' => '/pages/team.php'],
+            ['text' => 'News', 'link' => '/pages/news.php'],
+            ['text' => 'Our Partners', 'link' => '/pages/partners.php'],
+            ['text' => 'Photo Gallery', 'link' => '/pages/gallery.php']
         ]
         ];
     }

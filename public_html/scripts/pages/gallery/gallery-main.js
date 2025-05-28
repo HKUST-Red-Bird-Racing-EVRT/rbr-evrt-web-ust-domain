@@ -11,10 +11,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Initialize gallery section
         const gallerySection = new GallerySection('gallery-section');
         await gallerySection.init();
-
-        // Initialize footer
-        const footerSection = new FooterSection('footer-section');
-        footerSection.init();
     } catch (error) {
         console.error('Error initializing page:', error);
     }

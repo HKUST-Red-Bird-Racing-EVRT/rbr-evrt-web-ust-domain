@@ -4,9 +4,15 @@ class HighlightsSection {
         this.data = null;
     }
 
-    async init() {
+    async init(pageContext = 'about', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'highlights',
+            context: encodeURIComponent(pageContext)
+        });
+
         try {
-            const response = await fetch('/scripts/data/highlights.json');
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+
             this.data = await response.json();
             this.render();
         } catch (error) {

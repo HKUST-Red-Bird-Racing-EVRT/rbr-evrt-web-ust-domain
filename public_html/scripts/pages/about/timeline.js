@@ -4,11 +4,17 @@ class TimelineSection {
         this.milestones = [];
     }
 
-    async init() {
+    async init(pageContext = 'about', options = {}) {
+        const urlParams = new URLSearchParams({
+            page: 'timeline',
+            context: encodeURIComponent(pageContext)
+        });
+
         try {
-            const response = await fetch('/scripts/data/timeline.json');
+            const response = await fetch(`/api/get_json_data.php?${urlParams}`);
+            
             const data = await response.json();
-            this.milestones = data.milestones;
+            this.milestones = data['milestones'];
             this.render();
         } catch (error) {
             console.error('Error loading timeline data:', error);

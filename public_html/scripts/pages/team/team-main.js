@@ -11,10 +11,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Initialize team section
         const teamSection = new TeamSection('team-section');
         await teamSection.init();
-
-        // Initialize footer
-        const footerSection = new FooterSection('footer-section');
-        footerSection.init();
     } catch (error) {
         console.error('Error initializing page:', error);
     }
