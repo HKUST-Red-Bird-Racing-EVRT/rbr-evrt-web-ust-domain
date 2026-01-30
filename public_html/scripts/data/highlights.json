@@ -1,0 +1,30 @@
+{
+  "sections": [
+    {
+      "title": "Discover the Thrill of Student Formula Racing at HKUST",
+      "description": "Student Formula Racing is an exhilarating platform where engineering students apply their skills in real-world scenarios. <br><br>Formula Student is Europe's most established educational engineering competition which uses motorsport to inspire students. <br><br>It requires teams to design, build, test, and race a Formula-style race car while making sure that there is a sound business model to back up a hypothetical mass-production line.",
+      "image": "/assets/images/fsuk_grp_photo.png",
+      "align": "right",
+      "button": {
+        "text": "Learn More",
+        "url": "https://www.imeche.org/events/formula-student"
+      }
+    },
+    {
+      "title": "Engineering Excellence Through Practical Experience",
+      "description": "Our team members gain hands-on experience in designing, building, and testing race cars. This practical approach to learning creates well-rounded engineers ready for industry challenges. <br><br>Throughout the development, we aim to provide a platform for students to learn by doing and step out of their comfort zone, so as to explore what they are truly capable of and mature further.",
+      "image": "/assets/images/fsuk.png",
+      "align": "left"
+    },
+    {
+      "title": "Join Our Journey to Racing Success",
+      "description": "Our team is composed of students from the School of Engineering, Science and Business & Management. We welcome everyone from every field as we believe every one can contribute as long as they are passionate. <br><br>Be part of a dynamic team that combines passion for motorsports with cutting-edge engineering. Together, we're not just building cars – we're shaping the future of mobility.",
+      "image": "/assets/images/2024-compressed/_ECA1446.jpg",
+      "align": "right",
+      "button": {
+        "text": "Join the Team",
+        "url": "mailto:redbirdracinghkustevrt@gmail.com"
+      }
+    }
+  ]
+} 
