@@ -1,0 +1,191 @@
+{
+    "categories": [
+        {
+            "id": "all",
+            "name": "All Photos"
+        },
+        {
+            "id": "racing",
+            "name": "Racing"
+        },
+        {
+            "id": "team",
+            "name": "Team"
+        },
+        {
+            "id": "events",
+            "name": "Events"
+        },
+        {
+            "id": "workshop",
+            "name": "Workshop"
+        }
+    ],
+    "images": [
+        {
+            "url": "/assets/images/2024-compressed/_ECA0688.jpg",
+            "caption": "Meeting with WHU Student Formula Racing Team",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/2024-compressed/_ECA0989.jpg",
+            "caption": "Members' Gathering",
+            "category": "team"
+        },
+        {
+            "url": "/assets/images/2024-compressed/_ECA1446.jpg",
+            "caption": "Workshop",
+            "category": "workshop"
+        },
+        {
+            "url": "/assets/images/2024-compressed/_ECA1880.jpg",
+            "caption": "Driver Training",
+            "category": "workshop"
+        },
+        {
+            "url": "/assets/images/2024-compressed/_ECA2957.jpg",
+            "caption": "HKUST Info Day",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/2024-compressed/Copy of IMG_1510.jpg",
+            "caption": "Seminar with Alfa Romeo",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/2024-compressed/Copy of Seiko screws visiting.jpg",
+            "caption": "Seiko screws visiting",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/2024-compressed/D3S_4912.jpg",
+            "caption": "Workshop",
+            "category": "workshop"
+        },
+        {
+            "url": "/assets/images/gallery/bg.jpg",
+            "caption": "Background",
+            "category": "all"
+        },
+        {
+            "url": "/assets/images/gallery/bg2021.jpg",
+            "caption": "Background 2021",
+            "category": "all"
+        },
+        {
+            "url": "/assets/images/gallery/Front.jpg",
+            "caption": "Front View",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/gen3-1.jpg",
+            "caption": "Generation 3 Car - View 1",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/gen3-2.jpg",
+            "caption": "Generation 3 Car - View 2",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/gen3-3.jpg",
+            "caption": "Generation 3 Car - View 3",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/gen3-4.jpg",
+            "caption": "Generation 3 Car - View 4",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/imxhk1.jpg",
+            "caption": "IMXHK Event - Photo 1",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/gallery/imxhk2.jpg",
+            "caption": "IMXHK Event - Photo 2",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/gallery/imxhk3.jpg",
+            "caption": "IMXHK Event - Photo 3",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/gallery/imxhk4.jpg",
+            "caption": "IMXHK Event - Photo 4",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/gallery/Iso.jpg",
+            "caption": "Isometric View",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/nio.jpg",
+            "caption": "NIO Collaboration",
+            "category": "events"
+        },
+        {
+            "url": "/assets/images/gallery/orientation1.jpg",
+            "caption": "Team Orientation - Photo 1",
+            "category": "team"
+        },
+        {
+            "url": "/assets/images/gallery/orientation2.jpg",
+            "caption": "Team Orientation - Photo 2",
+            "category": "team"
+        },
+        {
+            "url": "/assets/images/gallery/orientation3.jpg",
+            "caption": "Team Orientation - Photo 3",
+            "category": "team"
+        },
+        {
+            "url": "/assets/images/gallery/orientation4.jpg",
+            "caption": "Team Orientation - Photo 4",
+            "category": "team"
+        },
+        {
+            "url": "/assets/images/gallery/shakedown1.jpg",
+            "caption": "Car Shakedown - Photo 1",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/shakedown2.jpg",
+            "caption": "Car Shakedown - Photo 2",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/shakedown3.jpg",
+            "caption": "Car Shakedown - Photo 3",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/shakedown4.jpg",
+            "caption": "Car Shakedown - Photo 4",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/Side.jpg",
+            "caption": "Side View",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/soon.png",
+            "caption": "Coming Soon",
+            "category": "all"
+        },
+        {
+            "url": "/assets/images/gallery/Top.jpg",
+            "caption": "Top View",
+            "category": "racing"
+        },
+        {
+            "url": "/assets/images/gallery/ylog.jpg",
+            "caption": "Workshop ylog",
+            "category": "workshop"
+        }
+    ]
+} 

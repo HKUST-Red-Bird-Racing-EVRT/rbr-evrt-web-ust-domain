@@ -1,0 +1,24 @@
+{
+    "milestones": [
+        {
+            "year": "2017",
+            "title": "Team Established",
+            "description": "Red Bird Racing was founded in 2017 as an experimental project. It quickly evolved into the official student racing team of HKUST."
+        },
+        {
+            "year": "2018",
+            "title": "First Competition",
+            "description": "In 2018, Red Bird Racing participated in its first Formula Student competition. This marked a significant step in our journey towards engineering excellence."
+        },
+        {
+            "year": "2019",
+            "title": "Major Achievements",
+            "description": "By 2019, the team achieved several notable accolades in various competitions. Our commitment to innovation and teamwork began to shine through."
+        },
+        {
+            "year": "2020",
+            "title": "New Innovations",
+            "description": "In 2020, Red Bird Racing introduced groundbreaking innovations in our vehicle design. Our advancements set new standards for performance and efficiency."
+        }
+    ]
+} 

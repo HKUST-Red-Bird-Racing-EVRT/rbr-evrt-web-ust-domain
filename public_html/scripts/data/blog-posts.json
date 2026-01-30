@@ -1,0 +1,40 @@
+{
+    "posts": [
+        {
+            "category": "Team News",
+            "title": "New Member Orientation Day 2022",
+            "description": "Welcome our new recruits!",
+            "content": "<p>Our orientation day for the new recruits!</p><p>To welcome everyone, we have had a great night through our workshop, car tour and simulation games with pizzas!</p><p>Here''s to a great upcoming year with our new members!</p>",
+            "image": "/assets/images/news/orientation2022.png",
+            "date": "14 Oct 2022",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Passed Events",
+            "title": "Member Recruitment 2022-23",
+            "description": "Recruitment info session",
+            "content": "<p>Recruitment info session</p><p>Info session: 13/9/2022, 19: 45, LTB</br>All disciplines are welcome. See you all there.</p><p>This info session is mandatory to attend in order to proceed in the recruitment!!!</p><p>After attending info session, submit the <a href=\"https://forms.gle/dLEo3AQZZW2buvKz6\">application form</a> if you are interested in joining our team.</p>",
+            "image": "/assets/images/news/recruitment.png",
+            "date": "13 Sep 2022",
+            "readTime": "3 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Hong Kong Inter-University Formula Student Alliance",
+            "description": "Details about the alliance",
+            "content": "<p>Hong Kong Inter-University Formula Student Alliance is an alliance that is formed by 3 formula student teams in Hong Kong. Namely, PolyU E-formula Racing Team (PERT), HKUST Red Bird Racing (HKUST RBR), and HKU Racing (HKUR). We fabricate and drive our small-scale formula-style race car to compete in Formula Student events around the world.</p><p>Our aims of Triple A<ul><li>Attract young talents to be Formula Student</li><li>Able to not just drive, but also build</li><li>Attention grabber from the local racing sector</li></ul></p><br><a href=\"https://www.instagram.com/hkpolyuracing_official/\" target=\"_blank\"> <i class=\"fa-brands fa-instagram\"></i> hkpolyuracing_official</a><br><a href=\"https://www.instagram.com/red.bird.racing_hkust/\" target=\"_blank\"> <i class=\"fa-brands fa-instagram\"></i> red.bird.racing_hkust</a><br><a href=\"https://www.instagram.com/hku_racing/\" target=\"_blank\"><i class=\"fa-brands fa-instagram\"></i> hku_racing</a>",
+            "image": "/assets/images/news/fshk.png",
+            "date": "30 Aug 2022",
+            "readTime": "5 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Small Announcement",
+            "description": "Announcement about the team and the upcoming events",
+            "content": "<p>We have been pushing very hard to develop our racecar to participate in the Formula Student UK events. Ever since the outbreak of COVID-19, we have not been able to travel and compete. That did not stop us from joining the online Concept Class. In FSUK 2021, we achieved encouraging results and we aimed to strike higher in FSUK 2022.</p><p>However, we were deeply saddened to acknowledge that FSUK 2022 Concept Class will only be offered in a face-to-face mannner. Due to the travel restrictions and the high cost of the return quarantine, it is impossible for us to travel to the UK.</p><p><b>We would like to announce that we are not joining FSUK 2022.</b></p><p>We will keep hustlinng to bring our next generation FS racecar- <b>RBR-4</b>. We will continue testing and optimizing while nurturing the next generation of engineering talents. We are actively seeking chances to prove ourselves, and we are also looking into possibility of local competition in Hong Kong.</p>",
+            "image": "/assets/images/news/small_announcement.png",
+            "date": "13 Jun 2022",
+            "readTime": "6 min read"
+        }
+    ]
+} 

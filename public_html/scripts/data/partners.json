@@ -1,0 +1,60 @@
+{
+  "partners": [
+    {
+      "id": 1,
+      "name": "Hong Kong University of Science and Technology",
+      "tier": "Platinum",
+      "logo": "/assets/images/partners/UST.png",
+      "description": "Technology solutions and services",
+      "website": "https://www.hkust.edu.hk/"
+    },
+    {
+      "id": 2,
+      "name": "School of Engineering, HKUST",
+      "tier": "Platinum",
+      "logo": "/assets/images/partners/SENG.png",
+      "description": "Engineering solutions provider",
+      "website": "https://seng.hkust.edu.hk/"
+    },
+    {
+      "id": 3,
+      "name": "Altium",
+      "tier": "Platinum",
+      "logo": "/assets/images/partners/Altium.png",
+      "description": "Leading software for electronic design automation",
+      "website": "https://www.altium.com"
+    },
+    {
+      "id": 4,
+      "name": "CLP Power Hong Kong",
+      "tier": "Gold",
+      "logo": "/assets/images/partners/CLP.png",
+      "description": "Power and energy solutions provider",
+      "website": "https://www.clp.com.hk/en/index"
+    },
+    {
+      "id": 5,
+      "name": "Coroflex",
+      "tier": "Silver",
+      "logo": "/assets/images/partners/Coroflex.png",
+      "description": "Flexible solutions for industry",
+      "website": "https://www.coroflex-cable.com/en/"
+    },
+    {
+      "id": 6,
+      "name": "PWR Cooling Technologies",
+      "tier": "Silver",
+      "logo": "/assets/images/partners/PWR.png",
+      "description": "Power and energy solutions",
+      "website": "https://www.pwr.com.au/"
+    },
+    {
+      "id": 7,
+      "name": "BOSCH",
+      "tier": "Bronze",
+      "logo": "/assets/images/partners/BOSCH.png",
+      "description": "Global supplier of technology and services",
+      "website": "https://www.bosch.com"
+    }
+  ]
+} 
