@@ -1,30 +1,25 @@
 <?php
 // auth_check.php
 
-// 开启错误显示
+// Display errors for debugging (Remove in production)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-// 加载 Composer 自动加载
-require_once __DIR__ . '/vendor/autoload.php';
+// autoload composer for CAS
+require_once $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
 
-// 加载配置（如果创建了的话）
-if (file_exists(__DIR__ . '/config.php')) {
-    require_once __DIR__ . '/config.php';
+if (file_exists($_SERVER['DOCUMENT_ROOT'] . '/auth/auth_config.php')) {
+    require_once $_SERVER['DOCUMENT_ROOT'] . '/auth/auth_config.php';
 } else {
-    // 如果没有配置文件，直接在这里定义
-    define('CAS_HOST', 'cas.ust.hk');
-    define('CAS_CONTEXT', '/cas');
-    define('CAS_PORT', 443);
-    define('DEBUG_MODE', true);
-    define('CAS_SERVER_BASE_URI', 'https://rbrevrt.hkust.edu.hk/');
+    echo "No config file found, contact admin for assistance.";
 }
+
 phpCAS::client(CAS_VERSION_3_0, CAS_HOST, CAS_PORT, CAS_CONTEXT, CAS_SERVER_BASE_URI);
-echo "init client\n";
-$cert_path = __DIR__ . '/certs/cas_cert.pem';
-phpCAS::setCasServerCACert($cert_path);
-echo "init cert";
+// echo "init client\n";
+
+phpCAS::setCasServerCACert(CAS_CERT_PATH);
+// echo "init cert";
 
 // 设置服务器验证
 if (DEBUG_MODE) {

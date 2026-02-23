@@ -1,11 +1,10 @@
 <?php
-// 开启错误显示（仅调试用）
+// Diaplay errors for debugging (Remove in production)
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-// simple-private-debug.php - 带调试信息的极简版
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/auth_check.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/auth/auth_check.php';
 
 $username = $_SESSION['user']['username'];
 $attributes = $_SESSION['user']['attributes'];
