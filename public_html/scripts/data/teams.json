@@ -1,0 +1,39 @@
+{
+    "teams": [
+        {
+            "name": "Aerodynamics Team",
+            "description": "Responsible for optimizing the car's shape to reduce drag and enhance performance.",
+            "image": "../assets/images/team/aero-team.jpg"
+        },
+        {
+            "name": "Chassis Team",
+            "description": "Designs and constructs the car's frame, ensuring strength and lightweight properties.",
+            "image": "../assets/images/team/chassis-team.jpg"
+        },
+        {
+            "name": "Electrical Team",
+            "description": "Handles all electrical systems, including wiring, sensors, and battery management.",
+            "image": "../assets/images/team/electrical-team.jpg"
+        },
+        {
+            "name": "Suspension Team",
+            "description": "Develops the suspension system to optimize handling and ride comfort on the track.",
+            "image": "../assets/images/team/suspension-team.jpg"
+        },
+        {
+            "name": "Software Team",
+            "description": "Creates the software for data acquisition and vehicle control systems.",
+            "image": "../assets/images/team/software-team.jpg"
+        },
+        {
+            "name": "Driver Team",
+            "description": "Focuses on driver training, vehicle dynamics, and performance optimization.",
+            "image": "../assets/images/team/driver-team.jpg"
+        },
+        {
+            "name": "Business Team",
+            "description": "Manages sponsorships, marketing, and team finances to ensure sustainability and growth.",
+            "image": "../assets/images/team/business-team.jpg"
+        }
+    ]
+} 

@@ -1,0 +1,51 @@
+/* Base Styles */
+@import 'base/reset.css';
+@import 'base/variables.css';
+@import 'base/typography.css';
+
+/* Utilities */
+@import 'utilities.css';
+
+/* Components */
+@import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/team.css';
+@import 'components/join.css';
+@import 'components/footer.css';
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-base);
+    line-height: 1.5;
+    color: var(--color-secondary-800);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-sm);
+}
+
+/* Utility Classes */
+.button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--color-primary-800);
+    color: var(--color-secondary-50);
+    text-decoration: none;
+    border-radius: 4px;
+    transition: var(--transition-base);
+}
+
+.button--outline {
+    background-color: transparent;
+    border: 1px solid var(--color-primary-800);
+    color: var(--color-primary-800);
+} 
