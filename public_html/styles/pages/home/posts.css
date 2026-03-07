@@ -134,6 +134,28 @@
     transform: translateX(4px);
 }
 
+/* Quote in post card */
+.post-card__quote {
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    border-left: 2px solid var(--color-primary-400);
+    background: rgba(255, 0, 0, 0.02);
+}
+
+.post-card__quote p {
+    font-style: italic;
+    font-size: var(--font-size-sm);
+    color: var(--color-secondary-600);
+    line-height: 1.5;
+    margin-bottom: var(--spacing-xs);
+}
+
+.post-card__quote span {
+    font-size: 0.8rem;
+    color: var(--color-secondary-400);
+    font-weight: var(--font-weight-medium);
+}
+
 /* Responsive Styles */
 @media (max-width: 1200px) {
     .posts__grid {

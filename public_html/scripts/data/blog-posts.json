@@ -1,6 +1,54 @@
 {
     "posts": [
         {
+            "category": "Race Results",
+            "title": "Seiko Screws Partnership & Factory Visit 2024",
+            "description": "Our team visited the Seiko Screws manufacturing facility, strengthening our newest partnership and gaining insight into precision fastener engineering.",
+            "content": "<p>We are thrilled to announce our newest partnership with <strong>Seiko Screws</strong>, a leader in precision fastener manufacturing. As part of the onboarding, our team had the incredible opportunity to visit their state-of-the-art factory and witness firsthand how high-precision components are crafted.</p><p>The visit gave our engineers valuable insight into the tolerances and material science behind every bolt and screw that holds a race car together — knowledge that directly translates to our vehicle design.</p>",
+            "image": "/assets/images/2024-compressed/Copy of Seiko screws visiting.jpg",
+            "date": "15 Mar 2024",
+            "readTime": "3 min read",
+            "quote": {
+                "text": "Seeing the precision manufacturing process up close gave us a whole new appreciation for the components we use on our car.",
+                "author": "Mechanical Team Lead"
+            }
+        },
+        {
+            "category": "Team Highlights",
+            "title": "RBR-4 Testing & Development Milestone",
+            "description": "The team completed a crucial round of shakedown testing for RBR-4, pushing the car's performance envelope and validating key design decisions.",
+            "content": "<p>After months of intense development, the Red Bird Racing team successfully completed a full shakedown test of the RBR-4 chassis. The session validated our suspension geometry, powertrain integration, and cooling system performance under real-world conditions.</p><p>Multiple runs were completed, with data acquisition systems capturing vital telemetry that will guide our next round of optimizations. The team is on track and motivated for the upcoming competition season.</p>",
+            "image": "/assets/images/2024-compressed/_ECA1446.jpg",
+            "date": "22 Feb 2024",
+            "readTime": "4 min read",
+            "quote": {
+                "text": "It was an incredible feeling to see months of design and fabrication work come alive on the track. The car performed beyond our expectations.",
+                "author": "Team Captain"
+            }
+        },
+        {
+            "category": "Team News",
+            "title": "2024 Team Photo & Season Kickoff",
+            "description": "The full Red Bird Racing EVRT squad gathered for the official 2024 team photo, marking the start of an ambitious new competition season.",
+            "content": "<p>With over 40 dedicated members spanning mechanical, electrical, software, and business divisions, Red Bird Racing EVRT kicked off the 2024 season with our official team photo shoot. The energy and enthusiasm in the room reflected the team's ambition to compete at the highest level of Formula Student.</p><p>This year's roster includes a strong mix of returning veterans and talented new recruits, each bringing fresh ideas and relentless drive to push our car and our team forward.</p>",
+            "image": "/assets/images/2024-compressed/D3S_4912.jpg",
+            "date": "10 Jan 2024",
+            "readTime": "2 min read",
+            "quote": {
+                "text": "This is the strongest and most diverse team we've ever assembled. I'm confident we'll make Hong Kong proud.",
+                "author": "Team Principal"
+            }
+        },
+        {
+            "category": "Team Highlights",
+            "title": "Vehicle Dynamics & Simulation Progress",
+            "description": "Our vehicle dynamics sub-team achieved a major milestone using CarMaker simulation software to validate and refine our suspension setup.",
+            "content": "<p>Leveraging the IPG CarMaker simulation platform, our vehicle dynamics division has completed a comprehensive virtual testing program. The simulations cover steady-state cornering, transient manoeuvres, and full-lap performance analysis — enabling us to fine-tune our setup before hitting the track.</p><p>This data-driven approach reduces physical prototyping time and gives us confidence in our design choices, ensuring every component is optimized for competition.</p>",
+            "image": "/assets/images/2024-compressed/_ECA0688.jpg",
+            "date": "05 Dec 2023",
+            "readTime": "4 min read"
+        },
+        {
             "category": "Team News",
             "title": "New Member Orientation Day 2022",
             "description": "Welcome our new recruits!",
@@ -12,8 +60,8 @@
         {
             "category": "Passed Events",
             "title": "Member Recruitment 2022-23",
-            "description": "Recruitment info session",
-            "content": "<p>Recruitment info session</p><p>Info session: 13/9/2022, 19: 45, LTB</br>All disciplines are welcome. See you all there.</p><p>This info session is mandatory to attend in order to proceed in the recruitment!!!</p><p>After attending info session, submit the <a href=\"https://forms.gle/dLEo3AQZZW2buvKz6\">application form</a> if you are interested in joining our team.</p>",
+            "description": "Recruitment info session for all disciplines — engineers, business minds, and creatives alike.",
+            "content": "<p>Recruitment info session</p><p>Info session: 13/9/2022, 19:45, LTB</br>All disciplines are welcome. See you all there.</p><p>This info session is mandatory to attend in order to proceed in the recruitment!!!</p><p>After attending info session, submit the <a href=\"https://forms.gle/dLEo3AQZZW2buvKz6\">application form</a> if you are interested in joining our team.</p>",
             "image": "/assets/images/news/recruitment.png",
             "date": "13 Sep 2022",
             "readTime": "3 min read"
@@ -21,7 +69,7 @@
         {
             "category": "Team News",
             "title": "Hong Kong Inter-University Formula Student Alliance",
-            "description": "Details about the alliance",
+            "description": "Three Hong Kong university Formula Student teams unite to promote motorsport engineering across the city.",
             "content": "<p>Hong Kong Inter-University Formula Student Alliance is an alliance that is formed by 3 formula student teams in Hong Kong. Namely, PolyU E-formula Racing Team (PERT), HKUST Red Bird Racing (HKUST RBR), and HKU Racing (HKUR). We fabricate and drive our small-scale formula-style race car to compete in Formula Student events around the world.</p><p>Our aims of Triple A<ul><li>Attract young talents to be Formula Student</li><li>Able to not just drive, but also build</li><li>Attention grabber from the local racing sector</li></ul></p><br><a href=\"https://www.instagram.com/hkpolyuracing_official/\" target=\"_blank\"> <i class=\"fa-brands fa-instagram\"></i> hkpolyuracing_official</a><br><a href=\"https://www.instagram.com/red.bird.racing_hkust/\" target=\"_blank\"> <i class=\"fa-brands fa-instagram\"></i> red.bird.racing_hkust</a><br><a href=\"https://www.instagram.com/hku_racing/\" target=\"_blank\"><i class=\"fa-brands fa-instagram\"></i> hku_racing</a>",
             "image": "/assets/images/news/fshk.png",
             "date": "30 Aug 2022",
@@ -30,11 +78,11 @@
         {
             "category": "Team News",
             "title": "Small Announcement",
-            "description": "Announcement about the team and the upcoming events",
-            "content": "<p>We have been pushing very hard to develop our racecar to participate in the Formula Student UK events. Ever since the outbreak of COVID-19, we have not been able to travel and compete. That did not stop us from joining the online Concept Class. In FSUK 2021, we achieved encouraging results and we aimed to strike higher in FSUK 2022.</p><p>However, we were deeply saddened to acknowledge that FSUK 2022 Concept Class will only be offered in a face-to-face mannner. Due to the travel restrictions and the high cost of the return quarantine, it is impossible for us to travel to the UK.</p><p><b>We would like to announce that we are not joining FSUK 2022.</b></p><p>We will keep hustlinng to bring our next generation FS racecar- <b>RBR-4</b>. We will continue testing and optimizing while nurturing the next generation of engineering talents. We are actively seeking chances to prove ourselves, and we are also looking into possibility of local competition in Hong Kong.</p>",
-            "image": "/assets/images/news/small_announcement.png",
+            "description": "An important update regarding our FSUK 2022 participation and the road ahead for RBR-4.",
+            "content": "<p>We have been pushing very hard to develop our racecar to participate in the Formula Student UK events. Ever since the outbreak of COVID-19, we have not been able to travel and compete. That did not stop us from joining the online Concept Class. In FSUK 2021, we achieved encouraging results and we aimed to strike higher in FSUK 2022.</p><p>However, we were deeply saddened to acknowledge that FSUK 2022 Concept Class will only be offered in a face-to-face manner. Due to the travel restrictions and the high cost of the return quarantine, it is impossible for us to travel to the UK.</p><p><b>We would like to announce that we are not joining FSUK 2022.</b></p><p>We will keep hustling to bring our next generation FS racecar- <b>RBR-4</b>. We will continue testing and optimizing while nurturing the next generation of engineering talents. We are actively seeking chances to prove ourselves, and we are also looking into possibility of local competition in Hong Kong.</p>",
+            "image": "/assets/images/news/small_announcement.jpg",
             "date": "13 Jun 2022",
             "readTime": "6 min read"
         }
     ]
-} 
+}

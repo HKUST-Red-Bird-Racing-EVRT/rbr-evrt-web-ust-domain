@@ -64,9 +64,17 @@
     --header-height: 80px;
     --border-radius: 4px;
     
+    /* Semantic Color Aliases */
+    --color-primary: var(--color-primary-600);
+    --color-hover: var(--color-primary-400);
+    --color-text: var(--color-secondary-700);
+    --color-light: var(--color-white-500);
+    --color-gray-100: var(--color-secondary-100);
+
     /* Effects */
     --transition-base: all 0.3s ease;
     --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+    --shadow-md: 0 8px 16px rgba(0, 0, 0, 0.12);
     
     /* Icon Sizes */
     --icon-sm: 1rem;

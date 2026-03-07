@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#ffffff"/>
+  <text x="100" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1a1a1a">SEIKO</text>
+  <text x="100" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="600" fill="#cc0000">SCREWS</text>
+  <line x1="50" y1="135" x2="150" y2="135" stroke="#cc0000" stroke-width="2"/>
+</svg>

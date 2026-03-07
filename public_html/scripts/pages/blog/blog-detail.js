@@ -32,6 +32,13 @@ class BlogDetailSection {
                     
                     <div class="blog-detail__content">
                         ${this.post.content}
+                        ${this.post.quote ? `
+                            <blockquote class="blog-detail__quote">
+                                <i class="fas fa-quote-left"></i>
+                                <p>${this.post.quote.text}</p>
+                                <cite>— ${this.post.quote.author}</cite>
+                            </blockquote>
+                        ` : ''}
                     </div>
                     
                     <div class="blog-detail__footer">

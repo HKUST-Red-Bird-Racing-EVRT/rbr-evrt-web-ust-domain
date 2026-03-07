@@ -37,6 +37,17 @@
     color: var(--color-white-50);
 }
 
+.button--dark {
+    background-color: var(--color-secondary-900);
+    color: var(--color-white-50);
+    border-color: var(--color-secondary-900);
+}
+
+.button--dark:hover {
+    background-color: var(--color-secondary-700);
+    border-color: var(--color-secondary-700);
+}
+
 /* Spacing Utilities */
 .mt-1 { margin-top: var(--spacing-xs); }
 .mt-2 { margin-top: var(--spacing-sm); }
