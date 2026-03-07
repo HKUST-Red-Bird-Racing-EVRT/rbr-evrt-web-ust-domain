@@ -2,6 +2,15 @@
     "posts": [
         {
             "category": "Team News",
+            "title": "Met Mr Dominic Cheng from the then-Alfa Romeo F1 Team",
+            "description": "Details from the 'Tyre Performance Engineer' sharing session",
+            "content": "<p>Met Mr Dominic Cheng from the then-Alfa Romeo F1 Team at the 'Tyre Performance Engineer' sharing session, which was held by the Hong Kong Automobile Association, receiving valuable feedback on tyre performance</p>",
+            "image": "",
+            "date": "10 Sep 2023",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
             "title": "New Member Orientation Day 2022",
             "description": "Welcome our new recruits!",
             "content": "<p>Our orientation day for the new recruits!</p><p>To welcome everyone, we have had a great night through our workshop, car tour and simulation games with pizzas!</p><p>Here''s to a great upcoming year with our new members!</p>",
