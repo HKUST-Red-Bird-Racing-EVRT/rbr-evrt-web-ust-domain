@@ -13,7 +13,6 @@ class NewsSection {
     }
 
     init() {
-        // Fetch blog posts data
         fetch('/scripts/data/blog-posts.json')
             .then(response => response.json())
             .then(data => {
@@ -50,7 +49,7 @@ class NewsSection {
 
                     <div class="news__grid">
                         ${this.articles.length ? 
-                            this.articles.map(article => this.renderArticle(article)).join('') :
+                            this.articles.map((article, index) => this.renderArticle(article, index === 0)).join('') :
                             '<p class="news__empty">No articles available at the moment.</p>'
                         }
                     </div>
@@ -61,9 +60,17 @@ class NewsSection {
         this.attachEventListeners();
     }
 
-    renderArticle(article) {
+    renderArticle(article, isFeatured = false) {
+        const quoteHtml = article.quote ? `
+            <blockquote class="blog-card__quote">
+                <i class="fas fa-quote-left blog-card__quote-icon"></i>
+                <p>${article.quote.text}</p>
+                <cite>— ${article.quote.author}</cite>
+            </blockquote>
+        ` : '';
+
         return `
-            <article class="blog-card" onclick="window.location.href='/pages/blog-detail.html?id=${article.title.replace(/\s+/g, '-').toLowerCase()}'">
+            <article class="blog-card ${isFeatured ? 'blog-card--featured' : ''}" onclick="window.location.href='/pages/blog-detail.html?id=${article.title.replace(/\s+/g, '-').toLowerCase()}'">
                 <div class="blog-card__image">
                     <img src="${article.image}" 
                          alt="${article.title}"
@@ -74,10 +81,11 @@ class NewsSection {
                     <span class="blog-card__category">${article.category}</span>
                     <h2 class="blog-card__title">${article.title}</h2>
                     <p class="blog-card__description">${article.description}</p>
+                    ${quoteHtml}
                     <div class="blog-card__meta">
-                        <span>${article.date}</span>
+                        <span><i class="far fa-calendar-alt"></i> ${article.date}</span>
                         <span>•</span>
-                        <span>${article.readTime}</span>
+                        <span><i class="far fa-clock"></i> ${article.readTime}</span>
                     </div>
                 </div>
             </article>
@@ -90,14 +98,14 @@ class NewsSection {
 
         if (category === 'all') {
             newsGrid.innerHTML = this.articles.length ? 
-                this.articles.map(article => this.renderArticle(article)).join('') :
+                this.articles.map((article, index) => this.renderArticle(article, index === 0)).join('') :
                 '<p class="news__empty">No articles available at the moment.</p>';
         } else {
             const filteredArticles = this.articles.filter(article => 
                 article.category.toLowerCase() === category.toLowerCase()
             );
             newsGrid.innerHTML = filteredArticles.length ?
-                filteredArticles.map(article => this.renderArticle(article)).join('') :
+                filteredArticles.map((article, index) => this.renderArticle(article, index === 0)).join('') :
                 '<p class="news__empty">No articles available in this category.</p>';
         }
     }
@@ -109,10 +117,11 @@ class NewsSection {
                 e.preventDefault();
                 this.filterPosts(e.target.dataset.category);
                 
+                
                 // Update active state
                 categoryLinks.forEach(l => l.classList.remove('news__category--active'));
                 e.target.classList.add('news__category--active');
             });
         });
     }
-} 
+}

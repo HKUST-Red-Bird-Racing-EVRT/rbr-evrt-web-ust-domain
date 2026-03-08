@@ -31,9 +31,11 @@ class HeroSection {
     render() {
         if (!this.container || !this.data) return;
 
+        const bgImage = this.data.backgroundImage || '/assets/images/2024-compressed/_ECA0989.jpg';
+
         this.container.innerHTML = `
             <div class="hero__background">
-                <img src="/assets/images/2024-compressed/_ECA0989.jpg" alt="Hero background">
+                <img src="${bgImage}" alt="Hero background">
             </div>
             <div class="container hero__container">
                 <div class="hero__content">
@@ -49,8 +51,7 @@ class HeroSection {
                 </div>
             </div>
         `;
-
-        // Add overlay class to container
+ // Add overlay class to container
         this.container.classList.add('hero--overlay');
     }
 } 

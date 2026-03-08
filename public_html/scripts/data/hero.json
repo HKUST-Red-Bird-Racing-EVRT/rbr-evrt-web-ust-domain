@@ -18,8 +18,9 @@
     },
     "news": {
         "title": "Team Updates",
-        "description": "Stay informed about our racing journey and achievements.",
-        "hideButton": true
+        "description": "Stay informed about our latest events, achievements, and racing journey.",
+        "hideButton": true,
+        "backgroundImage": "/assets/images/2024-compressed/_ECA2957.jpg"
     },
     "sponsors": {
         "title": "Partner With\nInnovation Leaders",
@@ -27,11 +28,12 @@
         "button": {
             "text": "Become a Sponsor",
             "link": "mailto:redbirdracinghkustevrt@gmail.com"
-        }
+        },
+        "backgroundImage": "/assets/images/2024-compressed/Copy of Seiko screws visiting.jpg"
     },
     "gallery": {
         "title": "Photo Gallery",
         "description": "Experience our journey through captivating moments and milestones.",
         "hideButton": true
     }
-} 
+}
