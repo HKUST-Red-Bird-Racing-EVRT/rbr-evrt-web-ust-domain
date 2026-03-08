@@ -5,8 +5,6 @@ services:
     platform: linux/amd64
     build:
       context: ./docker/php
-      args:
-        APP_MODE: ${APP_MODE}
     container_name: rbrevrt_web
     ports:
       - "8080:80"

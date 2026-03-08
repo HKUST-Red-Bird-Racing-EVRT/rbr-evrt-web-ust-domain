@@ -6,7 +6,7 @@ error_reporting(E_ALL);
 
 echo"Start auth check\n";
 require_once $_SERVER['DOCUMENT_ROOT'] . '/auth/auth_check.php';
-
+echo"End auth check\n";
 $username = $_SESSION['user']['username'];
 $attributes = $_SESSION['user']['attributes'];
 ?>

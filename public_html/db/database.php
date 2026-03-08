@@ -17,23 +17,13 @@ if ($db_host_env !== false) {
     define('DB_SSL_CA', getenv('DB_SSL_CA')); // SSL certificate authority file path
 
 } 
-// --- Environment Priority 2: Production File Fallback ---
-
-// Check if the production-specific file exists.
 elseif (file_exists( $_SERVER['DOCUMENT_ROOT'] . '/db/database_prod.php')) {
-    // We are likely in the production environment.
-    // Include the production credentials file.
     require_once($_SERVER['DOCUMENT_ROOT'] . '/db/database_prod.php');
 
 } 
-// --- Failure Case ---
-
 else {
     // If neither environment variables nor the prod file are found, we can't continue.
     // Die with a generic error to avoid leaking path information.
     http_response_code(500);
     die("Fatal Error: Database configuration is missing or could not be loaded.");
 }
-
-// Now your application can safely use these constants anywhere.
-// e.g., $pdo = new PDO("mysql:host=" . DB_HOST . ";dbname=" . DB_NAME, DB_USER, DB_PASS);
