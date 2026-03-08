@@ -337,6 +337,23 @@
     .partners__cta-image {
         min-height: 200px;
     }
+    .partners__cta {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .partners__cta-content {
+        padding: var(--spacing-md);
+    }
+
+    .partners__cta-text {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .partners__cta-image {
+        min-height: 200px;
+    }
 }
 
 @media (max-width: 480px) {
