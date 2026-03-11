@@ -1,0 +1,53 @@
+version: '3.8'
+
+services:
+  web:
+    platform: linux/amd64
+    build:
+      context: ./docker/php
+    container_name: rbrevrt_web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./public_html:/var/www/vhost/rbrevrt/public_html
+      - ./Docker/apache/apache-config.conf:/etc/apache2/sites-available/000-default.conf
+    env_file:
+      - .env.local # Loads all variables from this file
+    depends_on:
+      - mysql
+    networks:
+      - project_network
+
+  mysql:
+    image: mysql:8.0
+    container_name: project_mysql
+    ports:
+      - "3307:3306"  # Different port to avoid conflict with local MySQL
+    env_file:
+      - .env.local # Loads all variables from this file
+    volumes:
+      - mysql_data:/var/lib/mysql
+      # - ./scripts/init-db.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - project_network
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: rbrevrt_phpmyadmin
+    ports:
+      - "8081:80"
+    environment:
+      - PMA_HOST=mysql
+      - PMA_PORT=3306
+      - UPLOAD_LIMIT=100M
+    depends_on:
+      - mysql
+    networks:
+      - project_network
+
+volumes:
+  mysql_data:
+
+networks:
+  project_network:
+    driver: bridge

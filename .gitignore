@@ -1,14 +1,17 @@
 # Ignore dependencies and environment files
 public_html/vendor/
+
 # Environment files
-.env
+.env.local
+.env.prod
 *.log
 .DS_Store
+
 # Local MySQL data
 mysql-data/
+
 # auth, certs and db files
-public_html/auth/
-public_html/db/
-public_html/certs/
-public_html/pages/test_db.php
-public_html/pages/test_cas.php
+public_html/db/database_prod.php
+public_html/auth/auth_config_prod.php
+
+
