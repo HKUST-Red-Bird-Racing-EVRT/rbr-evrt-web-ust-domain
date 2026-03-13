@@ -2,11 +2,83 @@
     "posts": [
         {
             "category": "Team News",
+            "title": "Formula Student China 2025 Entry Confirmed",
+            "description": "Official entry into Formula Student China Competition",
+            "content": "<p>We are excited to announce that Red Bird Racing has successfully secured our entry into the Formula Student China (FSC) Competition for 2025!</p><p>After months of preparation, design work, and documentation, this marks an important milestone for the team as we prepare to compete on the track again.</p><p>Stay tuned for updates on our build progress, testing, and travel plans!</p>",
+            "image": "",
+            "date": "November 2025",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "FSC Electrical System Officer Training Completed",
+            "description": "Team members trained as Electrical System Officers",
+            "content": "<p>Several team members have successfully completed the official Formula Student China Electrical System Officer (ESO) training in May 2025.</p><p>This certification is essential for competition safety and scrutineering compliance. Thank you to all who participated and congratulations to everyone who passed!</p>",
+            "image": "",
+            "date": "May 2025",
+            "readTime": "1 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Meeting with Zealim Racing",
+            "description": "Knowledge exchange with fellow Hong Kong team",
+            "content": "<p>In April 2025, we had a very productive meeting with Zealim Racing — another passionate Formula Student team from Hong Kong.</p><p>We shared experiences, discussed technical challenges, and explored potential future collaboration opportunities within the local Formula Student community.</p>",
+            "image": "",
+            "date": "April 2025",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Passed Events",
+            "title": "Visit to Hong Kong Productivity Council (HKPC)",
+            "description": "Industry visit and facility tour",
+            "content": "<p>In March 2025, a group of Red Bird Racing members visited the Hong Kong Productivity Council (HKPC).</p><p>We had the opportunity to tour advanced manufacturing facilities, learn about industry-grade prototyping technologies, and discuss potential support for our racecar development.</p><p>Thank you to HKPC for the warm welcome and valuable insights!</p>",
+            "image": "",
+            "date": "March 2025",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Mechanical Engineering Presentation 2025",
+            "description": "Team presentation to the department",
+            "content": "<p>In February 2025, Red Bird Racing delivered a detailed presentation to the Department of Mechanical and Aerospace Engineering.</p><p>We showcased our current vehicle design, project progress, and future competition goals to faculty members and fellow students.</p><p>Thank you for the support and constructive feedback from the department!</p>",
+            "image": "",
+            "date": "February 2025",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Meeting with Ms Vivian Siu",
+            "description": "End-of-year progress update meeting",
+            "content": "<p>In December 2024, the team had a very insightful meeting with Ms Vivian Siu.</p><p>We presented our 2024 achievements, ongoing development of the new racecar, and plans for the 2025 competition season.</p><p>Thank you for your continued guidance and support!</p>",
+            "image": "",
+            "date": "December 2024",
+            "readTime": "1 min read"
+        },
+        {
+            "category": "Passed Events",
+            "title": "Red Bird Racing Public Introduction @ Info Day",
+            "description": "Official team launch on Info Day",
+            "content": "<p>In June 2024, we proudly introduced Red Bird Racing to the public during HKUST Info Day.</p><p>Prospective students, families, and visitors had the chance to learn about our team, see our racecar up close, and talk to current members about Formula Student.</p><p>Thank you to everyone who stopped by our booth!</p>",
+            "image": "",
+            "date": "June 2024",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
+            "title": "Meeting with Professor Willem Toet",
+            "description": "Technical discussion with renowned aerodynamicist",
+            "content": "<p>In June 2024, we were very fortunate to have a technical meeting with Professor Willem Toet — a highly respected aerodynamicist with extensive experience in motorsport.</p><p>The session provided invaluable feedback and new perspectives on our aerodynamic package and overall vehicle design philosophy.</p><p>Thank you, Professor Toet, for sharing your expertise with our team!</p>",
+            "image": "",
+            "date": "June 2024",
+            "readTime": "2 min read"
+        },
+        {
+            "category": "Team News",
             "title": "Met Mr Dominic Cheng from the then-Alfa Romeo F1 Team",
             "description": "Details from the 'Tyre Performance Engineer' sharing session",
             "content": "<p>Met Mr Dominic Cheng from the then-Alfa Romeo F1 Team at the 'Tyre Performance Engineer' sharing session, which was held by the Hong Kong Automobile Association, receiving valuable feedback on tyre performance</p>",
             "image": "",
-            "date": "10 Sep 2023",
+            "date": "Sep 2023",
             "readTime": "2 min read"
         },
         {
